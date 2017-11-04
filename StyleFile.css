@@ -1,15 +1,8 @@
-
-table {
-    border: 2px solid black;
-    text-align: center;
-    border-spacing: 15px;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    background-color: #FFFEFE;      
+    padding: 0;     
+    width: 100%;
 }
 
 a {
@@ -19,14 +12,13 @@ a {
     padding: 10px;
     text-decoration: none;
     font-size: 24px; 
+    background-color: #F75FB5;
+    color: white;
 }
 
 li {
+ background-color: #F75FB5;
+ color: white;
  float: left;
  text-align: center;
-}
-
-.active {
-    background-color: #F75FB5;
-    color: pink;
-}
+} 
